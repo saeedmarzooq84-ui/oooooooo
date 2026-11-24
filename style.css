@@ -1,0 +1,47 @@
+.feedback {
+  margin-top: 14px;
+  padding: 14px;
+  border-radius: 14px;
+  border: 1px solid #dce8f5;
+  background: #f7fbff;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+.feedback strong {
+  display: block;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.feedback p {
+  margin: 6px 0 0;
+}
+
+.feedback.correct {
+  background: #eaf8f1;
+  border-color: #9dd7bb;
+  color: #126b49;
+}
+
+.feedback.incorrect {
+  background: #fff1f1;
+  border-color: #edb7b7;
+  color: #a33131;
+}
+
+.feedback.error {
+  background: #fff8e9;
+  border-color: #efd59a;
+  color: #76520b;
+}
+
+.score-summary {
+  margin: 12px 0 18px;
+  padding: 14px;
+  border-radius: 14px;
+  background: #edf5ff;
+  color: #205e9f;
+  font-weight: 900;
+  text-align: center;
+}
